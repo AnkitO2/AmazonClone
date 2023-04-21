@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Headernav from "./component/Headernav";
+import Tailnav from "./component/Tailnav";
+import Picslider from "./component/Picslider";
+import Slider from "./component/Slider";
+import Scrollslidefirst from "./component/Scrollslidefirst";
+import Scrollslidesecond from "./component/Scrollslidesecond";
+import Tempnav from "./component/Tempnav";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Headernav />
+      <Tailnav />
+      <Picslider />
+      <Slider />
+      <Scrollslidefirst />
+      <Scrollslidesecond/> */}
+      <Tempnav/>
+
+     
     </div>
   );
 }
