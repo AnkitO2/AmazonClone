@@ -10,12 +10,12 @@ import Tempnav from "./component/Tempnav";
 function App() {
   return (
     <div>
-      {/* <Headernav />
+      <Headernav />
       <Tailnav />
       <Picslider />
       <Slider />
       <Scrollslidefirst />
-      <Scrollslidesecond/> */}
+      <Scrollslidesecond/>
       <Tempnav/>
 
      
