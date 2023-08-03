@@ -1,6 +1,5 @@
 import { Col, Container, Row, Button, Card } from "react-bootstrap";
 import "./Slider.css";
-
 const Slider = () => {
   return (
     <Container fluid>

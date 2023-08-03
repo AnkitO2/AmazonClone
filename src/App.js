@@ -17,9 +17,7 @@ function App() {
       <Scrollslidefirst />
       <Scrollslidesecond/>
       <Tempnav/>
-
-     
-    </div>
+   </div>
   );
 }
 
