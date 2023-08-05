@@ -4,8 +4,6 @@ import Tailnav from "./component/Tailnav";
  import Picslider from "./component/Picslider";
 import Slider from "./component/Slider";
 import Scrollslidefirst from "./component/Scrollslidefirst";
-//import Scrollslidesecond from "./component/Scrollslidesecond";
-//import Tempnav from "./component/Tempnav";
 
 function App() {
   return (
@@ -15,8 +13,6 @@ function App() {
       <Picslider />
      <Slider />
    <Scrollslidefirst />
-         {/*  <Scrollslidesecond />
-      <Tempnav />  */}
     </div>
   );
 }
