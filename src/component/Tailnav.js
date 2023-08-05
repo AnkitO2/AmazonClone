@@ -10,10 +10,12 @@ const Tailnav = () => {
       <Container fluid>
         <Row className="Nav-Background-color">
           <Col
-            md={9}
+            lg="8"
+            md="8"
+            sm="8"
             className="second-nav-halfcol d-flex justify-content-between align-items-center"
           >
-            <Menu id="Menu" />
+            <Menu id="Menu" className="justify-content-center" />
             <p>All</p>
             <p>Amazon Minitv</p>
             <p>Sell</p>
@@ -23,13 +25,13 @@ const Tailnav = () => {
             <p>Customer Service</p>
             <p>Electronics</p>
             <p>Prime</p>
-            <p>New Realeases</p>
+       
           </Col>
-          <Col md={3}>
-            <div className="d-flex   justify-content-end">
-              <img src={Logonav} alt="Error"  />
+           <Col lg="4" md="6" sm="12">
+            <div className="d-flex   justify-content-end justify-content-center">
+              <img src={Logonav} alt="Error" />
             </div>
-          </Col>
+          </Col> 
         </Row>
       </Container>
     </Fragment>

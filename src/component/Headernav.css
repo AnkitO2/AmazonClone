@@ -2,17 +2,12 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-}
-/* body {
-  margin: 0px;
-  box-sizing: border-box;
-} */
+} 
 
 .Upernavbackground {
   position: relative;
   object-fit: cover;
   background-color: rgb(19, 25, 33);
-
   color: white;
 }
 

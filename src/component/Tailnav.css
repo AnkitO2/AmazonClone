@@ -1,26 +1,22 @@
-#Menu{
+#Menu {
+row-gap: 3px;
   color: white;
+text-align: center;
   font-weight: bold;
 }
-.Nav-Background-color{
-    object-fit: cover;
-    position: relative;
+.Nav-Background-color {
+  object-fit: cover;
+  position: relative;
 }
 
-.second-nav-halfcol p{
-   
-font-size: 1.2rem;
-font-weight: bold;
-color: white;
-align-items: center;
-position: relative;
-top: 10px;
-
-
+.second-nav-halfcol p {
+  font-weight: bold;
+  color: white;
+  align-items: center;
+  position: relative;
+  top: 10px;
 }
 
-
-
-.Nav-Background-color{
-background-color:rgb(35, 47, 63);
+.Nav-Background-color {
+  background-color: rgb(35, 47, 63);
 }

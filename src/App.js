@@ -1,11 +1,11 @@
 import "./App.css";
 import Headernav from "./component/Headernav";
 import Tailnav from "./component/Tailnav";
-import Picslider from "./component/Picslider";
+ import Picslider from "./component/Picslider";
 import Slider from "./component/Slider";
 import Scrollslidefirst from "./component/Scrollslidefirst";
-import Scrollslidesecond from "./component/Scrollslidesecond";
-import Tempnav from "./component/Tempnav";
+//import Scrollslidesecond from "./component/Scrollslidesecond";
+//import Tempnav from "./component/Tempnav";
 
 function App() {
   return (
@@ -13,11 +13,11 @@ function App() {
       <Headernav />
       <Tailnav />
       <Picslider />
-      <Slider />
-      <Scrollslidefirst />
-      <Scrollslidesecond/>
-      <Tempnav/>
-   </div>
+     <Slider />
+   <Scrollslidefirst />
+         {/*  <Scrollslidesecond />
+      <Tempnav />  */}
+    </div>
   );
 }
 

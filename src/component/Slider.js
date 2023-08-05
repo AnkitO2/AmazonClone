@@ -4,15 +4,15 @@ const Slider = () => {
   return (
     <Container fluid>
       <Row
-        className=" d-flex justify-content-between justify-content-center
+        className=" d-flex justify-content-between justify-content-center mt-5
 "
       >
         <Col sm="3" md="3" lg="3" className=" text-center ">
-          <h2>Up to 70% off | Clearance store</h2>
+          <h5>Home & Kitchen Under $30</h5>
           <Card style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="https://images-eu.ssl-images-amazon.com/images/W/IMAGERENDERING_521856-T2/images/G/31/img22/Electronics/Clearance/Clearance_store_Desktop_CC_1x._SY304_CB628315133_.jpg"
+              src="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2022/img/Amazon_Exports/XCM_CUTTLE_1469391_2584745_379x304_1X_en_US._SY304_CB609304299_.jpg"
             />
             <Card.Body>
               <Button variant="">see more</Button>
@@ -20,11 +20,11 @@ const Slider = () => {
           </Card>
         </Col>
         <Col sm="3" md="3" lg="3" className="  text-center">
-          <h2>Bluetooth Calling Smartwatch starts at</h2>
-          <Card style={{ width: "18rem" }} >
-            <Card.Img 
+          <h5>Home refresh ideas</h5>
+          <Card style={{ width: "18rem" }}>
+            <Card.Img
               variant="top"
-              src="https://images-eu.ssl-images-amazon.com/images/W/IMAGERENDERING_521856-T2/images/G/31/img22/Wearables/PC_CategoryCard_379X304_1._SY304_CB614835787_.jpg"
+              src="https://images-na.ssl-images-amazon.com/images/G/01/home/THILGMA/SpringEvent2023/XCM_CUTTLE_1559454_3018199_379x304_1X_en_US._SY304_CB592739737_.jpg"
             />
             <Card.Body>
               <Button variant="">Shop Now</Button>
@@ -32,11 +32,11 @@ const Slider = () => {
           </Card>
         </Col>
         <Col sm="3" md="3" lg="3" className="text-center">
-          <h2>Automotive essentials | Up to 60% off</h2>
+          <h5>Shop Laptops & Tablets</h5>
           <Card style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="https://images-eu.ssl-images-amazon.com/images/W/IMAGERENDERING_521856-T2/images/G/31/img20/AmazonLaunchpad/2022/DEC_GW/Grocery_PC_CC_379X304._SY304_CB620688365_.jpg"
+              src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Laptops_379x304_1X_en_US._SY304_CB418608471_.jpg"
             />
             <Card.Body>
               <Button variant="">see more</Button>
@@ -44,11 +44,11 @@ const Slider = () => {
           </Card>
         </Col>
         <Col sm="3" md="3" lg="3" className="text-center">
-          <h2>Automotive essentials | Up to 60% off</h2>
+          <h5>Shop activity trackers</h5>
           <Card style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="https://images-eu.ssl-images-amazon.com/images/W/IMAGERENDERING_521856-T2/images/G/31/img16/malar/March23/LR_379X304._SY304_CB595115209_.jpg"
+              src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg"
             />
             <Card.Body>
               <Button variant="">see more</Button>
@@ -58,11 +58,11 @@ const Slider = () => {
       </Row>
       <Row className="mt-5">
         <Col sm="3" md="3" lg="3" className="text-center">
-          <h2>Diapers & wipes | Starting ₹99</h2>
+          <h5>Create with strip lights</h5>
           <Card style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="https://images-eu.ssl-images-amazon.com/images/W/IMAGERENDERING_521856-T2/images/G/31/img22/Baby/cnnjpp1/CC_Rev1x._SY304_CB594433898_.jpg "
+              src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_StripLighting_379x304_1X_en_US._SY304_CB418597476_.jpg"
             />
             <Card.Body>
               <Button variant="">see more</Button>
@@ -70,11 +70,11 @@ const Slider = () => {
           </Card>
         </Col>
         <Col sm="3" md="3" lg="3" className="text-center">
-          <h2>Bestselling Smartwatch starts at ₹1,999</h2>
+          <h5>Shop Pet supplies</h5>
           <Card style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="https://images-eu.ssl-images-amazon.com/images/W/IMAGERENDERING_521856-T2/images/G/31/img22/Wearables/PC_CategoryCard_379X304_2._SY304_CB614835787_.jpg"
+              src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_Pets_1X._SY304_CB639746743_.jpg"
             />
             <Card.Body>
               <Button variant="">Shop Now</Button>
@@ -82,11 +82,11 @@ const Slider = () => {
           </Card>
         </Col>
         <Col sm="3" md="3" lg="3" className="text-center">
-          <h2>Gardening days | Starting ₹99</h2>
+          <h5>Deals in Tools and Home</h5>
           <Card style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="https://images-eu.ssl-images-amazon.com/images/W/IMAGERENDERING_521856-T2/images/G/31/IMG20/Home/2021/GW/MSO/pc-cc_-379x304_new._SY304_CB614591838_.jpg"
+              src="https://images-na.ssl-images-amazon.com/images/G/01/home/THILGMA/Holiday2022/Graphics/XCM_CUTTLE_1475305_2610205_379x304_1X_en_US._SY304_CB608600856_.jpg"
             />
             <Card.Body>
               <Button variant="">see more</Button>
@@ -94,11 +94,11 @@ const Slider = () => {
           </Card>
         </Col>
         <Col sm="3" md="3" lg="3" className="text-center">
-          <h2>Value Packs under ₹599 | Amazon Brands & more</h2>
+          <h5>Health & Personal Care</h5>
           <Card style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="https://images-eu.ssl-images-amazon.com/images/W/IMAGERENDERING_521856-T2/images/G/31/Symbol/2021/wrs/mencombo_low._SY304_CB666768535_.jpg"
+              src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg"
             />
             <Card.Body>
               <Button variant="">see more</Button>

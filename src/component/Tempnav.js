@@ -1,9 +1,8 @@
 import React from "react";
 import { Fragment } from "react";
 import "./Tempnav.css";
-
-import Amlogo from "../Logos/amlogo.png";
-import amlog from "../Logos/image11.png";
+// import Amlogo from "../Logos/amlogo.png";
+// import amlog from "../Logos/image11.png";
 import { MapPin, Search, ShoppingCart } from "react-feather";
 
 import { Row, Col, Container } from "react-bootstrap";
