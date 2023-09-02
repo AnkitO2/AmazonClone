@@ -8,6 +8,7 @@ import Scrollslidefirst from "./component/Scrollslidefirst";
 function App() {
   return (
     <div>
+
       <Headernav />
       <Tailnav />
       <Picslider />
