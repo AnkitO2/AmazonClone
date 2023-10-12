@@ -1,27 +1,27 @@
 import React from "react";
 import "./Scrollslidesecond.css";
 import { ChevronLeft, ChevronRight } from "react-feather";
+import { Col, Row } from "react-bootstrap";
 
 const Scrollslidesecond = () => {
-
   let box = document.querySelector(".producte-container");
   const btnpresspreve = () => {
     let Slider = box.clientWidth;
     box.scrollLeft = box.scrollLeft - Slider;
   };
   const btnpressnexte = () => {
-    let Slider = box.clientWidth; 
+    let Slider = box.clientWidth;
     box.scrollLeft = box.scrollLeft + Slider;
   };
   return (
-    <div className="producte-carousel">
+    <Row className="producte-carousel">
       <button className="prebtn" onClick={btnpresspreve}>
         <ChevronLeft className="icone" />
       </button>
       <button className="nextbtn" onClick={btnpressnexte}>
         <ChevronRight className="icone" />
       </button>
-      <div className="producte-container">
+      <Col className="producte-container">
         <img
           src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/81lk7-7LejL._AC_SY200_.jpg"
           alt="Error"
@@ -102,8 +102,8 @@ const Scrollslidesecond = () => {
           src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/71357lkGCsL._AC_SY200_.jpg"
           alt="Error"
         />
-      </div>
-    </div>
+      </Col>
+    </Row>
   );
 };
 export default Scrollslidesecond;

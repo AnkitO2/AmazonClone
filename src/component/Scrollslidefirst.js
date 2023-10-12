@@ -1,6 +1,7 @@
 import React from "react";
 import "./Scrollslidefirst.css";
 import { ChevronLeft, ChevronRight } from "react-feather";
+import { Col } from "react-bootstrap";
 
 const Scrollfirst = () => {
   let box = document.querySelector(".product-container");
@@ -15,14 +16,14 @@ const Scrollfirst = () => {
     console.log(width);
   };
   return (
-    <div className="product-carousel">
+    <Row className="product-carousel">
       <button className="pre-btn" onClick={btnpressprev}>
         <ChevronLeft className="icon" />
       </button>
       <button className="next-btn" onClick={btnpressnext}>
         <ChevronRight className="icon" />
       </button>
-      <div className="product-container">
+      <Col className="product-container">
         <img
           src="https://m.media-amazon.com/images/I/61I+l9IhJWL._AC_SY200_.jpg"
           cardno="1"
@@ -123,8 +124,8 @@ const Scrollfirst = () => {
           cardno="20"
           alt="Error"
         />
-      </div>
-    </div>
+      </Col>
+    </Row>
   );
 };
 export default Scrollfirst;
