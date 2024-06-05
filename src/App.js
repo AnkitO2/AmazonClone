@@ -4,16 +4,19 @@ import Tailnav from "./component/Tailnav";
 import Picslider from "./component/Picslider";
 import Slider from "./component/Slider";
 import Scrollslidefirst from "./component/Scrollslidefirst";
+import { Fragment } from "react";
 
 function App() {
   return (
-    <>
-      <Headernav />
+    <Fragment>
+      <Headernav /> 
       <Tailnav />
       <Picslider />
       <Slider />
       <Scrollslidefirst />
-    </>
+    </Fragment>
+      
+  
   );
 }
 

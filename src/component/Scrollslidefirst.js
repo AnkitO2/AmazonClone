@@ -1,7 +1,7 @@
 import React from "react";
 import "./Scrollslidefirst.css";
 import { ChevronLeft, ChevronRight } from "react-feather";
-import { Col } from "react-bootstrap";
+import { Col , Row } from "react-bootstrap";
 
 const Scrollfirst = () => {
   let box = document.querySelector(".product-container");
